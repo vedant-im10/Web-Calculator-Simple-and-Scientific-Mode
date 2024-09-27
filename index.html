@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <form
+    action="post"
+    style="align-items: center; display: flex; flex-direction: column; justify-content: center;">
+        <input type="radio" id="simple" name="ca" value="Simple">
+        <label for="simple">Simple</label><br>
+        <input type="radio" id="scientific" name="ca" value="Scientific">
+        <label for="scientific">Scientific</label><br>
+        <input type="submit"
+        formmethod="post"
+        formaction="/visit" value="Visit"
+        style="
+        border-radius:20px;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;"
+        >
+    </form>
+</body>
+
+</html>
